@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import "../../public/App.css";
-function Square({ value, onSquereClick }) {
+export default function Square({ value, onSquerClick }) {
   return (
-    <button className="square" onClick={onSquereClick}>
-      {value}
-    </button>
+    <>
+      <button className="square" onClick={onSquerClick}>
+        {value}
+      </button>
+    </>
   );
-} 
-export default Square;
+}
